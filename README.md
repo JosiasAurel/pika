@@ -1,6 +1,8 @@
 
 ## Octo 
 
+[![Run on Repl.it](https://repl.it/badge/github/JosiasAurel/octo)](https://repl.it/github/JosiasAurel/octo)
+
 A simple url shortener made with Python and flask
 
 ### Dependencies 
