@@ -18,9 +18,10 @@ def gen_rand_url():
 def handle_short():
     data = request.get_json(force=True)
     #print(data)
-    done = db.insert({'original_url':data['url'], 'short_url':gen_rand_url() })
+    rand_str = gen_rand_url()
+    done = db.insert({'original_url':data['url'], 'short_url':rand_str })
     print(done)
-    return {'url':data['url']}
+    return {'url':data['url'], 'short_url': rand_str}
 
 #dynamic route test for short url
 @octo.route("/<url>")

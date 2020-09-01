@@ -6,7 +6,8 @@ db = TinyDB('./db.json')
 
 User = Query()
 
-db.insert({'original_url': 'https://password-generator.josiasdev.best',  'short_url': 'bawzz'})
+ing = db.insert({'original_url': 'https://password-generator.josiasdev.best',  'short_url': 'bawzz'})
+print(ing)
 
 data = db.search(User['original_url'] == 'https://password-generator.josiasdev.best')
 
