@@ -1,5 +1,5 @@
 
-## Octo 
+## Pika
 
 [![Run on Repl.it](https://repl.it/badge/github/JosiasAurel/octo)](https://repl.it/github/JosiasAurel/octo)
 
